@@ -1,0 +1,17 @@
+.right{
+    display: flex;
+    flex-direction: row;
+
+    .two{
+        border-bottom-right-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+
+    .blacksu{
+        width: 35%;
+        background-color: black;
+    }
+    &>*{
+        height: 70vh;
+    }
+}

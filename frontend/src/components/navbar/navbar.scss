@@ -1,0 +1,64 @@
+@import "../../global.scss";
+
+.navbar {
+    position: absolute;
+    z-index: 1;
+    border-bottom: .3rem solid gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+    ul{
+        margin-top: -2.5rem;
+        padding: 3.5rem;
+        list-style: none;
+        font-size: 30px;
+        color: white;
+        font-family: $font;
+        font-weight: 300;
+        display: flex;
+        gap:1.5rem;
+
+        li {
+            // margin-bottom: 25px;
+            color: white;
+            outline: none;
+            list-style: none;
+
+            Link{
+                text-decoration: none;
+                font-size: inherit;
+                color: coral;
+            }
+
+            &:hover{
+                font-weight: 600;
+            }
+        }
+    }
+
+    .right{
+        display: flex;
+
+        .heading {
+            padding: 1rem;
+            margin-top: .5rem;
+            font-size: 2rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+        }
+
+        img{
+            margin-top: 0rem;
+            height: 4.5rem;
+            width: 4.5rem;
+        }
+    }
+}

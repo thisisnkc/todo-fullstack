@@ -1,0 +1,40 @@
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.icondiv{
+    width: 2rem;
+    z-index: 2;
+    background-color: gray;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+#icon2 , #icon1{
+    transition: all 1s ease;
+}
+
+.icon{
+    margin-top: .6rem;
+    margin-left: .2rem;
+    z-index: 3;
+    font-size: large;
+    color: #241722;
+}
+
+.searchinp{
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    height: 2.5rem;
+    width: 15rem;
+    border: none;
+    text-decoration: none;
+    border: .1rem solid gray;
+    padding: .5rem;
+    background-color: #241722;
+    outline: none;
+    color: yellow;
+    font-size: 1rem;
+    font-weight: bold;
+}

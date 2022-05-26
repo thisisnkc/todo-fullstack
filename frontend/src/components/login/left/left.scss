@@ -1,0 +1,79 @@
+@import "../../../global.scss";
+
+.left{
+    font-family: $font;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+
+    .top{
+        margin-top: 3rem;
+        margin-left: 5rem;
+        width: 24rem;
+        .heading{
+            font-size: 2rem;
+            font-weight: 1000;
+            font-family: $roboto;
+
+        }
+        
+        .intro{
+            margin-top: 1.5rem;
+            margin-left: 1rem;
+            font-family: $roboto;
+            font-size: .7rem;
+            color: gray;
+            word-spacing: .2rem;
+
+            .span{
+                cursor: pointer;
+                color: blue;
+
+                &:hover{
+                    font-size: .71rem;
+                }
+            }
+        }
+    }
+
+.down{
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        margin-left: 4rem;
+
+        .wrapper{
+            border-bottom: .1rem solid gray;
+
+            .icon{
+                font-size: 1.5rem;
+            }
+        }
+
+        .btn{
+            border-radius: .5rem;
+            color: white;
+            background-color: black;
+            font-size: 1rem;
+            padding: .5rem;
+            margin-top: 2rem;
+        }
+        
+        .same{
+            outline: none;
+            border: none;
+            margin-left: 1.9rem;
+            margin-top: 1.6rem;
+        }
+
+
+        &>*{
+            margin-left: 5rem;
+            width: 15rem;
+            height: 3em;
+        }
+    }
+}
+}
