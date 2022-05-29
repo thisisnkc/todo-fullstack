@@ -2,7 +2,7 @@ import React from "react";
 import "./list.css";
 import { RiDeleteBin5Line } from "react-icons/ri";
 
-function List({ value, handleDelete, id }) {
+function List({ value, handleDelete, id}) {
 
   return (
     <div className="list">

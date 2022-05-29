@@ -14,12 +14,53 @@
     z-index: 2;
     background-color: $homecolor;
 
+    .nothing{
+        font-family: sans-serif;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        color: rgb(246, 255, 0);
+        font-weight: 500;
+        font-size: 2rem;
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        margin-left: 30rem;
+        align-content: center;
+        justify-content: center;
+        .btn-modal {
+            cursor: pointer;
+            color: blue;
+            background-color: $navcolor;
+            border: none;
+            border-radius: .2rem;
+            padding: .5rem;
+            font-size: 1rem;
+            height: 2rem;
+            width: 15rem;
+            margin-left: 8rem;
+            font-weight: 700;
+        }
+    }
+
+
     .parent{
-        margin-left: 9rem;
-        border-radius: 2rem;
-        height: 35rem;
-        width: 60rem;
-        background-color: rgb(15, 80, 170);
+        padding: 2rem;
+        .btn-modal {
+            cursor: pointer;
+            color: blue;
+            background-color: $navcolor;
+            border: none;
+            border-radius: .2rem;
+            padding: .5rem;
+            font-size: 1rem;
+            height: 2rem;
+            width: 15rem;
+            margin-left: 8rem;
+            font-weight: 700;
+        }
+        
 
     .main {
         margin-top: 2rem;
@@ -34,59 +75,6 @@
             flex-direction: row;
             align-items: center;
             gap: 10rem;
-
-            form{
-                display: flex;
-                flex-direction: column;
-                gap:2rem;
-                margin-left: 4rem;
-        
-                .wrapper{
-                    border-bottom: .1rem solid rgb(204, 200, 200);
-        
-                    .icon{
-                        color: rgb(204, 200, 200);
-                        font-size: 1.5rem;
-                    }
-                }
-        
-                .btn{
-                    font-family: $font;
-                    letter-spacing: .5rem;
-                    font-weight: bolder;
-                    border-radius: .5rem;
-                    color: white;
-                    background-color: #00a6ff;
-                    font-size: 1rem;
-                    padding: .5rem;
-                    margin-top: 2rem;
-                    border: none;
-                }
-                
-                .same{
-                    outline: none;
-                    border: none;
-                    margin-left: 1.9rem;
-                    margin-top: 1.6rem;
-                    color: black;
-                    background-color: rgb(15, 80, 170);
-                }
-
-                input::-webkit-input-placeholder {
-                    color: rgb(204, 200, 200) !important;
-                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    font-weight: 500;
-                    padding-left: .5rem !important;
-                    word-spacing: .2rem;
-                }
-        
-        
-                &>*{
-                    margin-left: 5rem;
-                    width: 15rem;
-                    height: 3em;
-                }
-            }
         }
     }
 }
